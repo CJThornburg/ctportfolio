@@ -7,12 +7,14 @@
 <html>
 
 <head>
-	<title>Landed by HTML5 UP</title>
+	<title>Chris Thornburg</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 	<!-- <script src="https://kit.fontawesome.com/91ee798f24.js" crossorigin="anonymous"></script> -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css"
-		rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css" -->
+	<!-- rel="stylesheet"> -->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -24,29 +26,17 @@
 
 		<!-- Header -->
 		<header id="header">
-			<h1 id="logo"><a href="index.html">Landed</a></h1>
+			<h1 id="logo"><a href="index.html">Chris Thornburg</a></h1>
 			<nav id="nav">
 				<ul>
-					<li><a href="index.html">Home</a></li>
+
+					<li><a href="#one" class=" scrolly">Projects</a></li>
 					<li>
-						<a href="#">Layouts</a>
-						<ul>
-							<li><a href="left-sidebar.html">Left Sidebar</a></li>
-							<li><a href="right-sidebar.html">Right Sidebar</a></li>
-							<li><a href="no-sidebar.html">No Sidebar</a></li>
-							<li>
-								<a href="#">Submenu</a>
-								<ul>
-									<li><a href="#">Option 1</a></li>
-									<li><a href="#">Option 2</a></li>
-									<li><a href="#">Option 3</a></li>
-									<li><a href="#">Option 4</a></li>
-								</ul>
-							</li>
-						</ul>
+						<a href="#four" class=" scrolly">Technologies</a>
+
 					</li>
-					<li><a href="elements.html">Elements</a></li>
-					<li><a href="#" class="button primary">Sign Up</a></li>
+					<li><a target="_blank" href="https://docs.google.com/document/d/1PDbmREfK7SKf8PSyldiU-eAF0EvMvYnffeavYTQWNwQ/edit?usp=sharing"
+							class="button primary">Resume</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -54,19 +44,24 @@
 		<!-- Banner -->
 		<section id="banner">
 			<div class="content">
+
 				<header>
 					<h2>Chris Thornburg</h2>
-					<p>Software Developer</p>
+					<p>Fullstack Software Engineer</p>
+					<p>Dedicated developer,<br />
+						with a passion for learning <br />
+						and exploring new technologies</p>
 				</header>
+
 				<span class="image"><img src="images/professinal.jpg" alt="" /></span>
 			</div>
 			<a href="#one" class="goto-next scrolly">Next</a>
 		</section>
 
 		<!-- One -->
-		<section id="one" class="spotlight style1 bottom">
+		<section class="spotlight style1 bottom">
 			<span class="image fit main"><img src="images/react-cover.jpg" alt="" /></span>
-			<div class="content">
+			<div id="one" class="content">
 				<div class="container">
 					<div class="row">
 						<div class="col-6 col-12-medium">
@@ -74,8 +69,10 @@
 								<h2>Projects</h2>
 
 							</header>
-							<p>Sentence about projects. I worked hard on these and variety. typing game, ecommerce site,
-								event scheduling site and a couple campaign </p>
+							<p>I've poured substantial effort into a diverse array of projects, demonstrating my
+								versatility. These endeavors span from a captivating typing game and a functional
+								ecommerce platform to an efficient event scheduling site, along with a couple of
+								engaging campaign initiatives.</p>
 						</div>
 
 					</div>
@@ -93,9 +90,10 @@
 		<div class="content">
 			<header>
 				<h2>ButterFingers</h2>
-				<p>Typing game website that keeps track of stats and connect with friends!</p>
+				<p>Engage in a dynamic typing game website that not only meticulously tracks your statistics but also
+					offers the exciting feature of connecting with friends for added interactive enjoyment!</p>
 			</header>
-			<p>Fullstack site using, react, redux, flask, alchemy, PostgreSQL, and vanilla css </p>
+			<p>Fullstack site using, react, redux, flask, alchemy, alembic, PostgreSQL, and vanilla css </p>
 			<ul class="actions">
 				<li><a href="https://butterfingers.onrender.com" target="_blank" class="button">Live Site</a></li>
 				<li><a href="https://github.com/CJThornburg/ButterFingers" target="_blank" class="button">Github
@@ -111,7 +109,8 @@
 		<div class="content">
 			<header>
 				<h2>Edgy</h2>
-				<p>Ecommece site to find your emo and anime handmade items!</p>
+				<p>Discover a unique ecommerce platform tailored of emo and anime fans, offering a curated selection of
+					handmade items that perfectly can help you capture your distinctive style.</p>
 			</header>
 			<p>Group made fullstack site using, react, redux, flask, alchemy, PostgreSQL, and vanilla css </p>
 			<ul class="actions">
@@ -119,7 +118,7 @@
 				<li><a href="https://github.com/CodeJellee/Edgy" target="_blank" class="button">Github Repo</a></li>
 			</ul>
 		</div>
-		<a href="#threeHalf" class="goto-next scrolly">Next</a>
+		<a href="#threeHalf" class="goto-next  black-goto-next scrolly">Next</a>
 	</section>
 
 
@@ -129,7 +128,7 @@
 		<div class="content">
 			<header>
 				<h2>OrganizeDown</h2>
-				<p>Event and Group scheduling site</p>
+				<p>Platform for organizing events and coordinating group activities</p>
 			</header>
 			<p>Fullstack site using, react, redux, express, sequelize, PostgreSQL, and vanilla css </p>
 			<ul class="actions">
@@ -147,106 +146,135 @@
 	<section id="four" class="wrapper style1 special fade-up">
 		<div class="container">
 			<header class="major">
-				<h2>technologies</h2>
+				<h2 id="tech-title" style="margin: 0;">Technologies</h2>
 
 			</header>
 			<div class="box alt">
 				<div class="row gtr-uniform">
 
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-brands fa-js"></span>
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-javascript-plain colored solid alt  major"></span>
 
 						<h3>JavaScript</h3>
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-chart-area"></span>
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-html5-plain solid colored alt  major"></span>
+						<h3>HTML</h3>
+					</section>
+					<section class="col-4 col-6-medium col-12-xsmall">
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-css3-plain solid alt colored  major"></span>
+						<h3>Css</h3>
+					</section>
+					<section class="col-4 col-6-medium col-12-xsmall">
+
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-express-original colored solid alt  major"></span>
+
 						<h3>node</h3>
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-comment"></span>
+
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-nodejs-plain solid colored alt  major"></span>
+
+						<h3>node</h3>
+					</section>
+					<section class="col-4 col-6-medium col-12-xsmall">
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-react-plain solid alt colored  major"></span>
 						<h3>React</h3>
 
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-paper-plane"></span>
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-redux-plain solid colored alt  major"></span>
 						<h3>Redux</h3>
 
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-file"></span>
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-git-plain solid alt  colored major"></span>
+						<h3>Git</h3>
+					</section>
+					<section class="col-4 col-6-medium col-12-xsmall">
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-python-plain solid alt colored  major"></span>
 						<h3>Python</h3>
 
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-flask"></span>
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-flask-plain solid alt   major"></span>
 						<h3>flask</h3>
 
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-lock"></span>
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-sqlalchemy-plain solid  alt  major"></span>
 						<h3>SQLAlchemy</h3>
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-lock"></span>
-						<h3>Git</h3>
-					</section>
-					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-lock"></span>
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-postgresql-plain solid colored alt  major"></span>
 						<h3>PostgreSQL</h3>
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-lock"></span>
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-bootstrap-plain colored solid alt  major"></span>
+						<h3>Bootstrap</h3>
+					</section>
+
+
+					<section class="col-4 col-6-medium col-12-xsmall">
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-wordpress-plain  colored solid alt  major"></span>
 						<h3>WordPress/Elementor</h3>
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-lock"></span>
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-gimp-plain solid alt  colored major"></span>
 						<h3>Gimp</h3>
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-lock"></span>
-						<h3>Hugo</h3>
+						<span style="font-size: 60px; padding: 34px;"
+						class=" tech__icon devicon-trello-plain solid alt  colored major"></span>
+						<h3>Trello</h3>
 					</section>
 					<section class="col-4 col-6-medium col-12-xsmall">
-						<span class="icon solid alt major fa-lock"></span>
+						<img style="width: 60px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+						<h3>Figma</h3>
+					</section>
+
+					<section class="col-4 col-6-medium col-12-xsmall">
+
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-hugo-plain solid colored alt  major"></span>
+
+						<h3>Hugo</h3>
+					</section>
+					<section class="col-12 col-12-medium col-12-xsmall">
+						<span style="font-size: 60px; padding: 34px;"
+							class=" tech__icon devicon-mongodb-plain solid alt  colored major"></span>
 						<h3>MongoDb</h3>
 					</section>
+
 				</div>
 			</div>
-			<footer class="major">
-				<ul class="actions special">
-					<li><a href="#" class="button">Magna sed feugiat</a></li>
-				</ul>
-			</footer>
-		</div>
-	</section>
 
-	<!-- Five -->
-	<section id="five" class="wrapper style2 special fade">
-		<div class="container">
-			<header>
-				<h2>Magna faucibus lorem diam</h2>
-				<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
-			</header>
-			<form method="post" action="#" class="cta">
-				<div class="row gtr-uniform gtr-50">
-					<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email"
-							placeholder="Your Email Address" /></div>
-					<div class="col-4 col-12-xsmall"><input type="submit" value="Get Started" class="fit primary" />
-					</div>
-				</div>
-			</form>
 		</div>
 	</section>
 
 	<!-- Footer -->
 	<footer id="footer">
 		<ul class="icons">
-			<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-			<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-			<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-			<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-			<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-			<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+			<!-- <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
+			<li><a href="https://github.com/CJThornburg" target="_blank" class=" icon brands alt fa-github"><span
+						class="label">GitHub</span></a></li>
+			<li><a href="mailto:cjthornburg@thornburgsfamily.com" class="icon solid alt fa-envelope"><span
+						class="label">Email</span></a></li>
 		</ul>
 		<ul class="copyright">
 			<li>&copy; Untitled. All rights reserved.</li>
