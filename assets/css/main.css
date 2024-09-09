@@ -3529,6 +3529,11 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+
+	/* icon  */
+	.orangeIcon {
+		color: #e44c65;
+	}
 /* Footer */
 
 	#footer {
